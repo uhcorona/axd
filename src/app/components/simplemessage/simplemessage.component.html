@@ -1,0 +1,8 @@
+<h1 style="color:#b20202 !important;">Mensaje</h1>
+<form class="mb-2" [formGroup]="messageForm">
+  <mat-form-field>
+    <textarea matInput formControlName="message"></textarea>
+  </mat-form-field>
+
+</form>
+<button style="color:#b20202 !important;" class="btn-block" (click)="sendmessage()">Crear Mensaje</button>
